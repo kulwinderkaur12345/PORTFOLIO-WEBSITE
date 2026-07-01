@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Kulwinder Kaur, a Bachelor of Computer Application student passionate about programming and web development.">
+  <title>Kulwinder Kaur | Portfolio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <a href="#top" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">KK</span>
+        <span>
+          <strong>Kulwinder Kaur</strong>
+          <small>BCA Student</small>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="internship.html">Internship</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Hi, I'm <span>Kulwinder Kaur</span></h1>
+          <h2 class="typing-text">Bachelor of Computer Application Student</h2>
+          <p>Passionate about learning programming, web development, and creating modern digital experiences.</p>
+          <div class="hero-actions">
+            <a href="about.html" class="btn btn-primary">About Me</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-card">
+            <img src="hero.svg" alt="Abstract coding illustration">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Highlights</p>
+          <h2>What I bring to the table</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="glass-card reveal">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Building polished, responsive and user-friendly websites using modern web technologies.</p>
+          </article>
+          <article class="glass-card reveal">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Problem Solving</h3>
+            <p>Focused on logical thinking, structured coding and efficient solutions for everyday challenges.</p>
+          </article>
+          <article class="glass-card reveal">
+            <i class="fa-solid fa-users"></i>
+            <h3>Communication</h3>
+            <p>Strong teamwork and collaboration skills backed by clear communication and continuous learning.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Kulwinder Kaur</h3>
+        <p>Bachelor of Computer Application Student</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Kulwinder Kaur</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="animation.js"></script>
+  <script src="validation.js"></script>
+</body>
+</html>

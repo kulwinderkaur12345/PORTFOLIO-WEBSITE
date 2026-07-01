@@ -1,0 +1,17 @@
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+@media (max-width: 900px) {
+  .hero-grid, .about-grid, .education-stack, .internship-grid, .footer-grid { grid-template-columns: 1fr; }
+  .cards-grid, .skills-grid, .stats-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 760px) {
+  .site-nav {
+    position: absolute; top: calc(100% + .8rem); right: 1rem; flex-direction: column; align-items: flex-start; background: rgba(7,17,31,.95); border: 1px solid var(--border); border-radius: 18px; padding: 1rem; width: min(260px, calc(100% - 2rem)); box-shadow: var(--shadow); opacity: 0; visibility: hidden; transform: translateY(-8px); transition: .25s ease;
+  }
+  .site-nav.open { opacity: 1; visibility: visible; transform: translateY(0); }
+  .nav-toggle { display: block; }
+  .hero { padding-top: 2rem; }
+  .hero-grid { gap: 1.3rem; }
+  .cards-grid, .skills-grid, .stats-grid, .info-grid { grid-template-columns: 1fr; }
+  .section { padding: 72px 0; }
+}
